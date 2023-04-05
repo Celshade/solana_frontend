@@ -136,7 +136,7 @@ export const GuessingGame: FC = () => {
                 pot.map(
                     (pot) => {
                         return (
-                            <div className="md:hero-content flex flex-col">
+                            <div key="yes" className="md:hero-content flex flex-col">
                                 <h1>{pot.name.toString()}</h1>
                                 <span>{pot.balance.toString()}</span>
                                 <button

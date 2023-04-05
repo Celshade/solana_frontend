@@ -40,7 +40,7 @@ export const HomeView: FC = ({ }) => {
           <div className="absolute -inset-0.5 bg-gradient-to-r from-indigo-500 to-indigo-500 rounded-lg blur opacity-40 animate-tilt"></div>
         </div>
         <h4>
-          Ready to play? Head on over to the 'Game' tab above!
+          Ready to play? Head on over to the Game tab above!
           Need some sol before you start? Airdrop below!
         </h4>
         <div className="flex flex-col mt-2">
